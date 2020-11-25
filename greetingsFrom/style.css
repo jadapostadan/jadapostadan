@@ -10,19 +10,32 @@
 }
 
 html {
-  background-color: #fcbc4e; /* #ebe2d2 */
+  background-color: #fcbc4e; 
+/*  background-image: url("IMAGES/resortMotelPostcard.png");
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;*/
 }
 
 h1 {
-  color: black; /* #fcbc4e */
-  /*-webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;*/
+  color: #FFF7E9; 
   text-align: left;
   padding: 8px;
   font-family: "Kaufmann", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3.2rem; 
+}
+
+h2 {
+  text-align: center;
+  font-family: "Coolvetica", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 0.1rem;
+  color: #fcbc4e;
 }
 
 a {
@@ -37,20 +50,62 @@ a {
 
 
 
+/* BACKGROUND IMAGES */
+
+.postcard img {
+  position: absolute;
+  display: block;
+  width: 1100px;
+  height: auto;
+  top: 3.5%;
+  left: 50%;
+  margin-left: -550px;
+  z-index: -3;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.tape1 img {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: auto;
+  top: 4%;
+  left: 15%;
+  margin-left: -100px;
+  margin-top: 0px;
+  transform: rotate(-34deg);
+  z-index: 3;
+}
+
+.tape2 img {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: auto;
+  top: 4%;
+  left: 86%;
+  margin-left: -100px;
+  margin-top: 0px;
+  transform: rotate(217deg);
+  z-index: 3;
+}
+
+
 
 .greetings {
   background-color: transparent;
   padding: 16px;
   position: absolute;
-  top: 7%;
-  left: 17%;
-  width: 880px; 
-  margin-left: -160px;
-  transform: rotate(-7deg);
+  top: 0%;
+  left: 50%;
+  width: 400px; 
+  margin-left: -180px;
 }
 
 
+
 /* DROPDOWN BUTTON */
+
 .dropBtn {
   background-color: #FEDEA7;
   color: black;
@@ -59,37 +114,41 @@ a {
   font-weight: normal;
   font-style: normal;
   font-size: 48px;
-/*  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: white;*/
   letter-spacing: 0.1rem;
-  border: 2.6px solid black;
+  border: 3px solid black;
   border-radius: 0.4em;
-  top: 50%;
+  top: 25%;
   left: 50%;  
   width: 880px; 
-  margin-top: 240px;
+  margin-top: 160px;
   margin-left: -440px;
   text-align: left;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
 }
 
+
+
 /* CONTAINER <DIV> */
+
 .dropdown {
   position: relative;
   display: inline-block;
   left: 50%;
 }
 
+
+
 /* DROPDOWN CONTENT (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
-  border: 2.6px solid black;
+  border: 3px solid black;
   border-radius: 0.4em;
   left: 0%;
-  width: 876px;
+  width: 874px;
   margin-top: -24px;
   margin-left: -440px;
   padding-top: 24px;
@@ -97,7 +156,10 @@ a {
   z-index: -1;
 }
 
+
+
 /* LINKS INSIDE DROPDOWN */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -105,24 +167,32 @@ a {
   display: block;
 }
 
+
+
 /* CHANGE COLOR OF DROPDOWN LINKS ON HOVER */
+
 .dropdown-content a:hover {background-color: #FEDEA7;} /* #ddd */
 
+
+
 /* SHOW DROPDOWN MENU ON HOVER */
+
 .dropdown:hover .dropdown-content {display: block;}
 
+
+
 /* CHANGE BKG COLOR OF DROPDOWN BUTTON WHEN CONTENT IS SHOWN */
+
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
 
 
 
 /* BOTTOM BUTTONS */
 
-bottomNav {
+.bottomNav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: transparent;
+  top: 90%;
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -131,7 +201,7 @@ bottomNav {
 .bottomNav a {
   background-color: #FEDEA7;
   margin: 16px;
-  padding: 8px 16px 8px 16px;
+  padding: 4px 16px 4px 16px;
   border: 2.6px solid black;
   border-radius: 0.4em;
   float: left;
@@ -141,8 +211,32 @@ bottomNav {
   font-size: 24px;
 }
 
-.bottom { 
-  position: absolute;                  
-  bottom: 0;                          
-  /*right: 0;*/
+
+
+.overlay {                   
+  background-color: transparent; /*rgba(0,0,0,0.75)*/
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
 }
+
+.textOverlay a {
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  color: #000000; /*#FFFDF5*/
+  text-decoration: none;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0.1rem;
+}
+
+
