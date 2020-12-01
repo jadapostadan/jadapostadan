@@ -5,19 +5,14 @@ let imgArray = [];
 
 
 
+
 function preload() {
 
-	// for (let i = 0; i < 5; i++) {
-
-	// 	imgArray[i] = loadImage('abbeyRd/abbeyRd' + i + '.png');
-
-	// }
-
   	imgArray[0] = loadImage('images/abbeyRd/abbeyRd1.png');
-  	imgArray[1] = loadImage('images/abbeyRd/abbeyRd2.png');
-  	imgArray[2] = loadImage('images/abbeyRd/abbeyRd3.png');
-  	imgArray[3] = loadImage('images/abbeyRd/abbeyRd4.png');
-  	imgArray[4] = loadImage('images/abbeyRd/abbeyRd5.png');
+  	// imgArray[1] = loadImage('images/abbeyRd/abbeyRd2.png');
+  	// imgArray[2] = loadImage('images/abbeyRd/abbeyRd3.png');
+  	// imgArray[3] = loadImage('images/abbeyRd/abbeyRd4.png');
+  	// imgArray[4] = loadImage('images/abbeyRd/abbeyRd5.png');
 
 }
 
@@ -40,7 +35,7 @@ function draw() {
 	for(let i = 0; i < abbeyRdArray.length; i++) {
 		abbeyRdArray[i].display();
 	}
-	
+
 }
 
 
