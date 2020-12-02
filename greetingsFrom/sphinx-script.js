@@ -10,21 +10,21 @@ var cnv;
 
 function preload() {
 
-  	imgArray[0] = loadImage('images/sphinx/sphinx0.png');
-  	imgArray[1] = loadImage('images/sphinx/sphinx1.png');
-  	imgArray[2] = loadImage('images/sphinx/sphinx2.png');
-  	imgArray[3] = loadImage('images/sphinx/sphinx3.png');
-  	imgArray[4] = loadImage('images/sphinx/sphinx4.png');
-  	imgArray[5] = loadImage('images/sphinx/sphinx5.png');
-  	imgArray[6] = loadImage('images/sphinx/sphinx6.png');
-  	imgArray[7] = loadImage('images/sphinx/sphinx7.png');
-  	imgArray[8] = loadImage('images/sphinx/sphinx8.png');
-  	imgArray[9] = loadImage('images/sphinx/sphinx9.png');
-  	imgArray[10] = loadImage('images/sphinx/sphinx10.png');
-  	imgArray[11] = loadImage('images/sphinx/sphinx11.png');
-  	imgArray[12] = loadImage('images/sphinx/sphinx12.png');
-  	imgArray[13] = loadImage('images/sphinx/sphinx13.png');
-  	imgArray[14] = loadImage('images/sphinx/sphinx14.png');
+  	imgArray[0] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx0.png');
+  	imgArray[1] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx1.png');
+  	imgArray[2] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx2.png');
+  	imgArray[3] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx3.png');
+  	imgArray[4] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx4.png');
+  	imgArray[5] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx5.png');
+  	imgArray[6] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx6.png');
+  	imgArray[7] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx7.png');
+  	imgArray[8] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx8.png');
+  	imgArray[9] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx9.png');
+  	imgArray[10] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx10.png');
+  	imgArray[11] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx11.png');
+  	imgArray[12] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx12.png');
+  	imgArray[13] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx13.png');
+  	imgArray[14] = loadImage('https://jadapostadan.github.io/jadapostadan/greetingsFrom/images/sphinx/sphinx14.png');
 
 }
 
@@ -67,6 +67,11 @@ function draw() {
 		photoArray[i].display();
 	}
 
+	noFill();
+	stroke(242,234,223);
+	strokeWeight(16);
+	rect(width/2, height/2, 1050, 675);
+
 }
 
 
@@ -105,7 +110,7 @@ class Photo {
 			stroke(235,226,210);
 			strokeWeight(3);
 			noFill();
-			rect(this.x,this.y,this.w1,this.w1);
+			rect(this.x,this.y,this.w1,this.w1,4);
 
 		}
 		

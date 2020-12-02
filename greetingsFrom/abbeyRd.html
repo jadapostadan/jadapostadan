@@ -20,7 +20,7 @@
         <div class="bottomNav">
             <a class="pageLink" href="index.html">BACK</a>
             <a class="pageLink" href=" ">RESET</a>
-            <a class="pageLink" href=" ">FINISH</a>
+            <span style="cursor:pointer" onclick="openNav()">FINISH</span>
         </div>
 
 
@@ -39,6 +39,34 @@
             <img src="images/whiteTape.png">
         </div>
 
+
+
+        <!-- FINISH OVERLAY -->
+
+        <div id="myNav" class="overlay2">
+
+            <!-- BUTTON TO REMOVE OVERLAY -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- CONTENT -->
+            <!-- <div class="overlay-content"> -->
+                <div class="greetings2">
+                    <h1 style="text-align:center">Greetings From</h1>
+                </div>
+                <div class="location">
+                    <h3 style="text-align:center">ABBEY ROAD</h3>
+                </div>
+                <div class="location">
+                    <p style="text-align:center">ABBEY ROAD</p>
+                </div>
+            <!-- </div> -->
+
+        </div>
+
+
+
+
+        <!-- P5.JS -->
 
         <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
 
