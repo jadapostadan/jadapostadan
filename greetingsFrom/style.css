@@ -131,6 +131,32 @@ span {
   z-index: 3;
 }
 
+.tape3 img {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 90px;
+  top: 1%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: 0px;
+  transform: rotate(2deg);
+  z-index: 3;
+}
+
+.tape4 img {
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 90px;
+  top: 1%;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: 0px;
+  transform: rotate(-2deg);
+  z-index: 3;
+}
+
 
 
 /* LANDING PAGE TITLE */
