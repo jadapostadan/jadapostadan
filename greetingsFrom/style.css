@@ -165,10 +165,16 @@ span {
   background-color: transparent;
   padding: 4px;
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 50%;
   width: 400px; 
   margin-left: -200px;
+}
+
+.greetings h1 {
+  /*color: #fcbc4e;*/
+  text-shadow: 3px 3px rgba(0,0,0,50);
+  -webkit-text-stroke: 2px black;
 }
 
 
