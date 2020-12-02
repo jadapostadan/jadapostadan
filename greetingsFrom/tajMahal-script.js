@@ -10,21 +10,21 @@ var cnv;
 
 function preload() {
 
-  	imgArray[0] = loadImage('images/abbeyRd/abbeyRd0.png');
-  	imgArray[1] = loadImage('images/abbeyRd/abbeyRd1.png');
-  	imgArray[2] = loadImage('images/abbeyRd/abbeyRd2.png');
-  	imgArray[3] = loadImage('images/abbeyRd/abbeyRd3.png');
-  	imgArray[4] = loadImage('images/abbeyRd/abbeyRd4.png');
-  	imgArray[5] = loadImage('images/abbeyRd/abbeyRd5.png');
-  	imgArray[6] = loadImage('images/abbeyRd/abbeyRd6.png');
-  	imgArray[7] = loadImage('images/abbeyRd/abbeyRd7.png');
-  	imgArray[8] = loadImage('images/abbeyRd/abbeyRd8.png');
-  	imgArray[9] = loadImage('images/abbeyRd/abbeyRd9.png');
-  	imgArray[10] = loadImage('images/abbeyRd/abbeyRd10.png');
-  	imgArray[11] = loadImage('images/abbeyRd/abbeyRd11.png');
-  	imgArray[12] = loadImage('images/abbeyRd/abbeyRd12.png');
-  	imgArray[13] = loadImage('images/abbeyRd/abbeyRd13.png');
-  	imgArray[14] = loadImage('images/abbeyRd/abbeyRd14.png');
+  	imgArray[0] = loadImage('images/tajMahal/tajMahal0.png');
+  	imgArray[1] = loadImage('images/tajMahal/tajMahal1.png');
+  	imgArray[2] = loadImage('images/tajMahal/tajMahal2.png');
+  	imgArray[3] = loadImage('images/tajMahal/tajMahal3.png');
+  	imgArray[4] = loadImage('images/tajMahal/tajMahal4.png');
+  	imgArray[5] = loadImage('images/tajMahal/tajMahal5.png');
+  	imgArray[6] = loadImage('images/tajMahal/tajMahal6.png');
+  	imgArray[7] = loadImage('images/tajMahal/tajMahal7.png');
+  	imgArray[8] = loadImage('images/tajMahal/tajMahal8.png');
+  	imgArray[9] = loadImage('images/tajMahal/tajMahal9.png');
+  	imgArray[10] = loadImage('images/tajMahal/tajMahal10.png');
+  	imgArray[11] = loadImage('images/tajMahal/tajMahal11.png');
+  	imgArray[12] = loadImage('images/tajMahal/tajMahal12.png');
+  	imgArray[13] = loadImage('images/tajMahal/tajMahal13.png');
+  	imgArray[14] = loadImage('images/tajMahal/tajMahal14.png');
 
 }
 

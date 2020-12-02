@@ -10,21 +10,21 @@ var cnv;
 
 function preload() {
 
-  	imgArray[0] = loadImage('images/abbeyRd/abbeyRd0.png');
-  	imgArray[1] = loadImage('images/abbeyRd/abbeyRd1.png');
-  	imgArray[2] = loadImage('images/abbeyRd/abbeyRd2.png');
-  	imgArray[3] = loadImage('images/abbeyRd/abbeyRd3.png');
-  	imgArray[4] = loadImage('images/abbeyRd/abbeyRd4.png');
-  	imgArray[5] = loadImage('images/abbeyRd/abbeyRd5.png');
-  	imgArray[6] = loadImage('images/abbeyRd/abbeyRd6.png');
-  	imgArray[7] = loadImage('images/abbeyRd/abbeyRd7.png');
-  	imgArray[8] = loadImage('images/abbeyRd/abbeyRd8.png');
-  	imgArray[9] = loadImage('images/abbeyRd/abbeyRd9.png');
-  	imgArray[10] = loadImage('images/abbeyRd/abbeyRd10.png');
-  	imgArray[11] = loadImage('images/abbeyRd/abbeyRd11.png');
-  	imgArray[12] = loadImage('images/abbeyRd/abbeyRd12.png');
-  	imgArray[13] = loadImage('images/abbeyRd/abbeyRd13.png');
-  	imgArray[14] = loadImage('images/abbeyRd/abbeyRd14.png');
+  	imgArray[0] = loadImage('images/louvre/louvre0.png');
+  	imgArray[1] = loadImage('images/louvre/louvre1.png');
+  	imgArray[2] = loadImage('images/louvre/louvre2.png');
+  	imgArray[3] = loadImage('images/louvre/louvre3.png');
+  	imgArray[4] = loadImage('images/louvre/louvre4.png');
+  	imgArray[5] = loadImage('images/louvre/louvre5.png');
+  	imgArray[6] = loadImage('images/louvre/louvre6.png');
+  	imgArray[7] = loadImage('images/louvre/louvre7.png');
+  	imgArray[8] = loadImage('images/louvre/louvre8.png');
+  	imgArray[9] = loadImage('images/louvre/louvre9.png');
+  	imgArray[10] = loadImage('images/louvre/louvre10.png');
+  	imgArray[11] = loadImage('images/louvre/louvre11.png');
+  	imgArray[12] = loadImage('images/louvre/louvre12.png');
+  	imgArray[13] = loadImage('images/louvre/louvre13.png');
+  	imgArray[14] = loadImage('images/louvre/louvre14.png');
 
 }
 
