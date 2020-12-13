@@ -1,25 +1,19 @@
-@font-face {
-	font-family: "Ed";
-	src: url("FONTS/Ed-Interlock.otf");
-	font-family: "Circular";
-	src: url("FONTS/CircularStd-Book.otf");
-}
-
 body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #E5E7E9;
 }
 
 h1 {
-	color: #E64A19;
+	color: #000; /*#E64A19*/
 	text-align: left;
 	padding-left: 32px;
 	font-family: eckmannpsych-large,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 5.6rem;
-	line-height: 0.9rem;
+	line-height: 0.2rem;
 	/*text-decoration: underline;*/
 	/*font-size: 6rem;*/
 	/*-webkit-text-stroke: 2px black;
@@ -30,17 +24,18 @@ h2 {
 	color: black;
 	text-align: left;
 	padding-left: 32px;
-	font-family: eckmannpsych-small,sans-serif;
-	font-weight: 400;
+	font-family: nimbus-sans-extended, sans-serif;
+	font-weight: 900;
 	font-style: normal; 
-	font-size: 1.2rem;
+	font-size: 2rem;
+	line-height: 0.2rem;
 }
 
 h3 {
 	color: black;
 	text-align: left;
 	padding-left: 32px;
-	font-family: aileron,sans-serif;
+	font-family: nimbus-sans,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.6rem;
@@ -51,26 +46,42 @@ h4 {
 	color: black;
 	text-align: left;
 	padding-left: 32px;
-	font-family: aileron,sans-serif;
+	font-family: nimbus-sans,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 0.9rem;
 	line-height: 0.1rem;
 }
 
+h5 {
+	color: black;
+	text-align: left;
+	padding-left: 32px;
+	font-family: nimbus-sans-extended, sans-serif;
+	font-weight: 900;
+	font-style: normal; 
+	font-size: 1rem;
+	line-height: 0.9rem;
+}
+
 
 
 .info {
-	margin-top: 72px;
+	margin-top: 48px;
 	margin-bottom: 64px;
 }
 
-.info a {
+.work {
+	margin-top: 96px;
+	margin-bottom: 64px;
+}
+
+.work a {
 	text-decoration: none;
 	color: black;
 }
 
-.info a:hover {
+.work a:hover {
 	text-decoration: none;
 	color: #19B5E6;
 }
